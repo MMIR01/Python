@@ -28,7 +28,7 @@ class Company:
         
 def printHello():
     #Public method outside a class
-    print "Hello"
+    print("Hello")
     
     
 if __name__ == "__main__":
