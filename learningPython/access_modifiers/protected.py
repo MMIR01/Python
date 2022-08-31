@@ -15,7 +15,7 @@ class Company:
     companyName = "My Company LTD"
     
     # This attribute is protected
-    # The single underscore is just a naming convention thaSt tells developers 
+    # The single underscore is just a naming convention that tells developers 
     # to not directly access or modify those specific class attributes
     _country = "United Kingdom"
     
