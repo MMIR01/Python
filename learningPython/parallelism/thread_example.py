@@ -11,6 +11,19 @@ Attributes:
 Todo:
     * N/A
 
+Note: from testdriven.io
+"A thread is a way of allowing your computer to break up a single
+process/program into many lightweight pieces that execute in parallel.
+Somewhat confusingly, Python's standard implementation of threading limits
+threads to only being able to execute one at a time due to something called
+the Global Interpreter Lock (GIL). The GIL is necessary because CPython's
+(Python's default implementation) memory management is not thread-safe.
+Because of this limitation, threading in Python is concurrent, but not
+parallel. To get around this, Python has a separate multiprocessing module not
+limited by the GIL that spins up separate processes, enabling parallel
+execution of your code. Using the multiprocessing module is nearly identical
+to using the threading module"
+
 @Author: mmir01
 @Date: 01/08/2022
 """
