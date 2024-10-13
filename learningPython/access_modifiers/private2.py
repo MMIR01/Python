@@ -12,7 +12,7 @@ Another example about PRIVATE
 
 class Company:
     # Class atrributes
-    # This attribute is public and can be accessed outside the class 
+    # This attribute is public and can be accessed outside the class
     # environment
     companyName = "My Company LTD"
     # These attributes are private, so it can be only accessed inside the class
@@ -61,11 +61,11 @@ if __name__ == "__main__":
     myCompany = Company()
 
     # So basically, it makes no sense to use '__' for variables inside a method
-    # as by definition a variable defined in a method is only created and 
+    # as by definition a variable defined in a method is only created and
     # exists when the method is executed
     # Another example:
     myCompany.doSomething()
-    # You cannot use neither __var1 or var2 (they are not attributes of the 
+    # You cannot use neither __var1 or var2 (they are not attributes of the
     # object)
     #myCompany.__var1
     #myCompany.var2
@@ -76,7 +76,7 @@ if __name__ == "__main__":
     # METHODS
     myCompany.insertData1("John", "Elisabeth")
     myCompany.insertData2("Ellen", "George")
- 
+
     # This one will fail as __ceo1 and __cto1 are not attributes, so they are
     # not defined when getData1 is called
     #myCompany.getData1()

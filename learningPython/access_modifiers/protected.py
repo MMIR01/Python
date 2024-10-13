@@ -12,7 +12,7 @@ Second example > PROTECTED
 
 class Company:
     # Class atrributes
-    # This attribute is public and can be accessed outside the class 
+    # This attribute is public and can be accessed outside the class
     # environment
     companyName = "My Company LTD"
 

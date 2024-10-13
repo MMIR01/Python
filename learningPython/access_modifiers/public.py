@@ -37,10 +37,11 @@ if __name__ == "__main__":
     # PUBLIC ATTRIBUTES
 
     # Class attributes are accessible even if we don't have an instance
-    print("Public attributes: " + Company.companyName + " - " + 
+    print("Public attributes: " + Company.companyName + " - " +
           Company.country)
 
-    # This will print an error as office attribute is only created when an instance in initialized
+    # This will print an error as office attribute is only created when an
+    # instance in initialized
     #print("Office: " + Company.office)
     # It will print:
     # AttributeError: class Company has no attribute 'office'
@@ -53,14 +54,14 @@ if __name__ == "__main__":
 
     # PUBLIC METHODS
 
-    # We can call "printHello" method without using an instance, as it is 
+    # We can call "printHello" method without using an instance, as it is
     # defined outside a class
     printHello()
 
     # To use the public methods defined inside the class, we need an instance
     #Company.printData()
     # It will fail:
-    # TypeError: unbound method printData() must be called with Company 
+    # TypeError: unbound method printData() must be called with Company
     # instance as first argument (got nothing instead)
     # Using an instance
     myCompany.printData()
